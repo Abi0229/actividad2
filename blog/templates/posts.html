@@ -1,5 +1,7 @@
 {% extends 'layout.html' %}
+
 {% block content %}
+
 <h1 class="fs-2">Post</h1>
 <h3>La cantidad {{total_posts}} post{{total_posts|pluralize}}</h3>
 {% for post in posts %}
@@ -21,4 +23,5 @@
     </div>
 </div>
 {% endfor %}
+
 {% endblock %}
